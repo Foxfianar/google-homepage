@@ -4,8 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* top-nav */
-nav ul {
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -16,48 +15,26 @@ nav li {
   float: right;
 }
 
-nav li a {
-  display: block;
+li {
+  display: inline-block;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
-/* Footer-left */
-footer-left {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+footer {
+background: #f2f2f2;
+border-top: solid 2px #e4e4e4;
+position: fixed;
+bottom: 0;
+padding-bottom: 0;
+width: 100%;
 }
 
-footer-left li {
+.footer-left {
   float: left;
 }
 
-footer-left li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Footer-right */
-footer-right {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-footer-right li {
+.footer-right {
   float: right;
 }
-
-footer-right li a {
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
