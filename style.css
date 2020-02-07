@@ -19,6 +19,15 @@ ul {
   padding: 0;
   overflow: hidden;
 }
+a {
+  color:rgba(0,0,0,0.87);
+   text-decoration: none;
+   font-size: 13px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 nav li {
   float: right;
