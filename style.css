@@ -4,6 +4,25 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+#sign_in {
+background-color: #EA4335;
+border-radius: 5%;
+margin: 5px;
+}
+
+#sign_in:hover {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+
+#sign_in a {
+  color: white;
+  font-weight: bold;
+}
+
+#sign_in a:hover {
+  text-decoration: none;
+}
+
 .google {
   text-align: center;
   display: block;
